@@ -1,6 +1,6 @@
 ---
 title: "TypeScript 기초 문법"
-date: "2023-04-26"
+date: "2023-04-02"
 image: typescript.png
 excerpt: TypeScript 기초 문법 정리
 isFeatured: true
