@@ -29,6 +29,7 @@
     - react-syntax-highlighter
 
 - back-end
+    - Next.js
     - MongoDB      
 
 
