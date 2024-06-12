@@ -1,5 +1,5 @@
 ---
-title: "Next.js basic"
+title: "Next basic"
 date: "2023-03-1"
 image: next.png
 excerpt: next.js에 대해서
@@ -86,11 +86,7 @@ className={`{styles.이름} ${styles.이름} link `}
 //아래와 같이 배열로 하고 join으로 문자열 형식으로도 만들 수 있다.
 <Link
   href="/"
-  className={[
-    "globalLink",
-    styles.link,
-    router.pathname === "/" ? styles.active : "",
-  ].join(" ")}
+  className={["globalLink", styles.link, router.pathname === "/" ? styles.active : ""].join(" ")}
 >
   home
 </Link>
@@ -187,7 +183,7 @@ styled-jsx Language Server : 자동완성
 
 > ## next.js에서의 title작성방법
 
-![](https://velog.velcdn.com/images/javascccccccc/post/77f4bb2b-43f8-4795-a7d4-9301e22bad34/image.PNG)
+![next.js에서의 title작성방법](https://velog.velcdn.com/images/javascccccccc/post/77f4bb2b-43f8-4795-a7d4-9301e22bad34/image.PNG)
 
 **페이지를 title을 말하는 것이다.**
 

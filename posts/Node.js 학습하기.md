@@ -285,7 +285,7 @@ app.get("/topic/:topic_id", (req, res) => {
 
 ## 최종 정리
 
-![](https://velog.velcdn.com/images/javascccccccc/post/bcd37f11-98b0-4132-bd83-7f1e2f518947/image.png)
+![nodejs최종정리](https://velog.velcdn.com/images/javascccccccc/post/bcd37f11-98b0-4132-bd83-7f1e2f518947/image.png)
 
 ```javascript
 const express = require("express");

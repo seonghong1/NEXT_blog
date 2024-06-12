@@ -23,7 +23,7 @@ isFeatured: true
 
 # MySQL 의 구조
 
-![](https://velog.velcdn.com/images/javascccccccc/post/8c98a182-13f8-422d-8b69-bdbd1396ca20/image.png)
+![MySQL의 구조](https://velog.velcdn.com/images/javascccccccc/post/8c98a182-13f8-422d-8b69-bdbd1396ca20/image.png)
 
 #### - MySQL의 구조는 데이터베이스 서버 > 데이터베이스(스키마) > 테이블 로 구성
 
@@ -144,8 +144,8 @@ DELETE FROM topic WHRER id = 5;
 
 #### JOIN, SELECT문은 관계형 데이터베이스의 핵심이다.
 
-![](https://velog.velcdn.com/images/javascccccccc/post/65eb4063-60af-4d9e-a0b6-56ac186c3809/image.PNG)
-![](https://velog.velcdn.com/images/javascccccccc/post/d56a94d6-6076-4559-ae75-95dbf8c4c699/image.PNG)
+![JOIN, SELECT문](https://velog.velcdn.com/images/javascccccccc/post/65eb4063-60af-4d9e-a0b6-56ac186c3809/image.PNG)
+![JOIN, SELECT문](https://velog.velcdn.com/images/javascccccccc/post/d56a94d6-6076-4559-ae75-95dbf8c4c699/image.PNG)
 
 ### JOIN은 테이블과 테이블을 조건에 따라 합쳐준다.
 
@@ -156,7 +156,7 @@ SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id;
 // topic테이블의 author_id와 author테이블의 id가 서로 같은 행을.
 ```
 
-![](https://velog.velcdn.com/images/javascccccccc/post/364f059e-91e6-464c-8f55-7ac52e7d82cc/image.PNG)
+![JOIN, SELECT문 출력값](https://velog.velcdn.com/images/javascccccccc/post/364f059e-91e6-464c-8f55-7ac52e7d82cc/image.PNG)
 해당 이미지와 같은 결과로 출력된다.
 author_id에 해당되는 author테이블의 id가 있는 행이 옆에 붙여 출력된다.
 출력시 컬럼명을 변경해서 출력도 가능하다
