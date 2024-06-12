@@ -21,3 +21,15 @@
 - **Database 활용**
     - 연락 및 프로젝트에 대한 피드백을 정보를 MongoDB를 활용해 저장할 수 있도록 구현하였습니다.
     - api 통신 과정을 하단에 노출되는 Notification 컴포넌트를 활용해 시각화를 구현하였습니다.
+ 
+- front-end
+    - Next.js
+    - gray-matter
+    - react-markdown
+    - react-syntax-highlighter
+
+- back-end
+    - MongoDB      
+
+
+
