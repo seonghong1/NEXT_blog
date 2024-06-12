@@ -16,9 +16,6 @@ isFeatured: true
 >
 > ### 관계형 데이터베이스(JOIN, SELECT)
 
-</br>
-</br>
-
 ---
 
 # MySQL 의 구조
@@ -28,8 +25,6 @@ isFeatured: true
 #### - MySQL의 구조는 데이터베이스 서버 > 데이터베이스(스키마) > 테이블 로 구성
 
 #### - 명령을 구분은 ; 로 해준다.
-
-</br>
 
 ---
 
@@ -60,8 +55,6 @@ USE 데이터베이스이름;
 // USE로 연결을 해주어야 그 안에 테이블이나 컬럼을 생성 및 관리할 수 있다.
 ```
 
-</br>
-
 ---
 
 # MySQL 테이블 및 컬럼 생성
@@ -90,8 +83,6 @@ CREATE TABLE topic(
 
 -> );
 ```
-
-</br>
 
 ---
 
@@ -136,8 +127,6 @@ DELETE FROM 테이블명 WHRER 컬럼명 = 데이터;
 DELETE FROM topic WHRER id = 5;
 ```
 
-</br>
-
 ---
 
 # 관계형 데이터베이스 (JOIN, SELECT)
@@ -165,8 +154,6 @@ author_id에 해당되는 author테이블의 id가 있는 행이 옆에 붙여 �
 SELECT topic.id AS topic_id FROM topic LEFT JOIN author ON topic.author_id = author.id;
 //topic.id 컬럼만 출력하고 컬럼명을 topic_id로 변경한다.
 ```
-
-</br>
 
 ---
 

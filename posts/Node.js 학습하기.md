@@ -16,13 +16,7 @@ isFeatured: true
 - ## res.send, render
 - ## query, params
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 ## 📌express 란?
 
@@ -43,13 +37,7 @@ const express = require("express");
 const app = express();
 ```
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 ## 📌body-parser 란?
 
@@ -82,13 +70,7 @@ app.post("/topic", (req, res) => {
 });
 ```
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 ## 📌fs 란?
 
@@ -118,13 +100,7 @@ fs모듈을 require을 통해 불러와준다.
 }
 ```
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 ## 📌app.매서드()
 
@@ -204,13 +180,7 @@ app.listen(port, () => {
 });
 ```
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 ## 📌res.send / res.render 란?
 
@@ -232,11 +202,7 @@ app.listen(port, () => {
 
 #### ex) res.send('index.html')
 
-</br>
-
 ---
-
-</br>
 
 ## 📌query / params 란?
 
@@ -345,9 +311,6 @@ app.listen(port, () => {
   console.log(`${port}번 포트 정상 작동 !!!`);
 });
 ```
-
-</br>
-</br>
 
 ```javascript
 //express, bodyparser, fs모듈을 갖고온다.
