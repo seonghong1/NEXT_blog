@@ -7,7 +7,7 @@ export default function HomePage(props) {
   return (
     <>
       <Head>
-        <title>SEONG HONG_Dev_Blog</title>
+        <title>SEONG HONG - DevBlog</title>
       </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
