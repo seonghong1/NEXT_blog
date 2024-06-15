@@ -2,7 +2,7 @@
 
 
 ### DevBlog - 개발 블로그 프로젝트
-### 배포사이트 : https://developer-blog-two.vercel.app/
+### 배포사이트 : https://sh01devblog.vercel.app
 - **페이지 구성**
     - posts/ - 모든 블로그 게시글이 존재하는 페이지
     - posts/[포스트명] - 각 블로그 콘텐츠의 내용이 담겨있는 페이지
